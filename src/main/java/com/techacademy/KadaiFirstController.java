@@ -22,7 +22,7 @@ public class KadaiFirstController {
         // 3：手順2で取得した変数から年・月・日に分割してそれぞれの変数へ格納する。
         String year = paradate.substring(0, 4);
         String month = paradate.substring(4, 6);
-        String day = paradate.substring(6, 7);
+        String day = paradate.substring(6, 8);
         // 4：手順3で分けた年・月・日から「何曜日か？」を判定してreturn ○○;で返却する。
         Calendar cal = Calendar.getInstance();
         //文字列を数値(int型)に変換する
